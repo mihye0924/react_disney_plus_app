@@ -66,11 +66,10 @@
 ```
 
 ![image](https://github.com/mihye0924/react_disney_plus_app/assets/71968785/af020434-791c-4ff0-99f3-184d5aeb1e01)
+ 
+![image](https://github.com/mihye0924/react_disney_plus_app/assets/71968785/7eb9fdc8-e445-44b6-accc-abe0ab3d6b21)
 
-![image](https://github.com/mihye0924/react_disney_plus_app/assets/71968785/f9bd1185-2036-4a9e-a69c-332521d67c6c)
-
-![image](https://github.com/mihye0924/react_disney_plus_app/assets/71968785/ccc79b04-1a46-46a9-9097-b57bd3cfc5c5)
-
+![image](https://github.com/mihye0924/react_disney_plus_app/assets/71968785/b5da970b-b412-48bc-94e2-fa32b90982cf)
 
 ## Firebase reDeploy
 ```
@@ -82,12 +81,10 @@ firebase deploy
  
 ## React Stacks
 
-#### Environment   
-<div style="backgroundColor: #fff">
-    <img src="https://github.com/mihye0924/react_context_app/assets/71968785/6e825b86-c259-48c2-a272-4286e74d9798" width="30">
-    <img src="https://github.com/mihye0924/react_context_app/assets/71968785/557f00bf-2f5f-4bc9-9d63-10565250d6f9" width="30">
-    <img src="https://github.com/mihye0924/react_context_app/assets/71968785/64f67e8b-759f-4063-a3bc-29dc3918e44b" width="30">
-</div>
+#### Environment    
+<img src="https://github.com/mihye0924/react_context_app/assets/71968785/6e825b86-c259-48c2-a272-4286e74d9798" width="30">
+<img src="https://github.com/mihye0924/react_context_app/assets/71968785/557f00bf-2f5f-4bc9-9d63-10565250d6f9" width="30">
+<img src="https://github.com/mihye0924/react_context_app/assets/71968785/64f67e8b-759f-4063-a3bc-29dc3918e44b" width="30"> 
 
 #### Config
 <img src="https://github.com/mihye0924/react_context_app/assets/71968785/64725c2b-af8d-4891-9ef1-f1068d1fd019" width="30">
