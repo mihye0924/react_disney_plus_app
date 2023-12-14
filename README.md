@@ -1,7 +1,6 @@
 # react_disney_plus_app
 
-![img1 daumcdn](https://github.com/mihye0924/react_context_app/assets/71968785/2570e3a5-ee43-42fb-86b8-da357be02d14)
-![download](https://github.com/mihye0924/react_disney_plus_app/assets/71968785/551b38b8-f966-41f6-981d-aa0f365c5ed5)
+![img1 daumcdn](https://github.com/mihye0924/react_context_app/assets/71968785/2570e3a5-ee43-42fb-86b8-da357be02d14) 
 
 
 # Study
