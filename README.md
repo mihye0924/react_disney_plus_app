@@ -65,8 +65,8 @@
 4. firebase init
 ```
 
-![image](https://github.com/mihye0924/react_disney_plus_app/assets/71968785/af020434-791c-4ff0-99f3-184d5aeb1e01)
- 
+![image](https://github.com/mihye0924/react_disney_plus_app/assets/71968785/d75fb255-1d67-426f-ab31-e5137e87d605)
+
 ![image](https://github.com/mihye0924/react_disney_plus_app/assets/71968785/7eb9fdc8-e445-44b6-accc-abe0ab3d6b21)
 
 ![image](https://github.com/mihye0924/react_disney_plus_app/assets/71968785/b5da970b-b412-48bc-94e2-fa32b90982cf)
