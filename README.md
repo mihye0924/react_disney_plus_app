@@ -99,6 +99,6 @@ firebase deploy
 <img src="https://github.com/mihye0924/react_context_app/assets/71968785/4e1c1159-2dc7-421f-b247-f2d23a86c52f" width="30">
 
 #### Deploy
-<img src="https://github.com/mihye0924/react_disney_plus_app/assets/71968785/84f91610-17df-4716-97b7-75135d2f8d10" width="30">
-
+<img src="https://github.com/mihye0924/react_disney_plus_app/assets/71968785/84f91610-17df-4716-97b7-75135d2f8d10" width="30"> 
+<img src="https://github.com/mihye0924/react_disney_plus_app/assets/71968785/a381898a-ae03-4f31-bb06-aa7966222f2f" width="30">
 
