@@ -5,7 +5,7 @@ import "./Row.css";
 import styled from 'styled-components';
 
 
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // import swiper style
@@ -38,12 +38,20 @@ const Row = ({title, id, fetchUrl}) => {
   return (
     <Container>
       <h2>{title}</h2>
-      <Swiper
+      <Swiper 
         // install Swiper modules
-        modules={[Navigation, Pagination, Scrollbar, A11y]}
+        modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
         loop={true} //loop 기능을 사용할 것인지
-        navigation // arrow 버튼 사용 유무
-        pagination={{ clickable: true }} //페이지 버튼 보이게 할지
+        navigation// arrow 버튼 사용 유무
+        // autoplay={{
+        //   delay: 2500,
+        //   disableOnInteraction: false,
+        // }} 
+        spaceBetween={10}
+        pagination={{ 
+          clickable: true, // 버튼 클릭 여부
+          type: 'bullets', // 버튼 모양 결정, bullets, fraction 
+        }} 
         breakpoints={{
           1378: {
             slidesPerView: 6, //한번에 보이는 슬라이드 개수 
@@ -64,20 +72,23 @@ const Row = ({title, id, fetchUrl}) => {
         }}
       >
         <Content id={id}>
-          {movies.map(movie => (
+          { movies.map(movie => {
+            return (   
             <SwiperSlide key={movie.id}>
-              <Wrap>
-                <img
-                  key={movie.id}
-                  src={`https://image.tmdb.org/t/p/original/${movie.backdrop_path}`}
-                  alt={movie.name}
-                  onClick={() => handleClick(movie)}
-                />
-              </Wrap>
-            </SwiperSlide>
-          ))}
-        </Content>
-      </Swiper>
+            <Wrap>
+              <img
+                key={movie.id}
+                src={`https://image.tmdb.org/t/p/original/${movie?.backdrop_path}`}
+                alt={movie.name}
+                loading="lazy"
+                onClick={() => handleClick(movie)}
+              />
+            </Wrap>
+          </SwiperSlide> 
+          )
+        })}
+        </Content> 
+      </Swiper> 
 
 
       {modalOpen &&
@@ -94,10 +105,13 @@ export default Row
 
 
 const Container = styled.div`
-  padding: 0 0 26px;
+  padding: 0 0 40px;
+  width: 100%;
+  overflow:hidden;
 `;
 
-const Content = styled.div``;
+const Content = styled.div`
+`;
 
 const Wrap = styled.div`
   width: 95%;

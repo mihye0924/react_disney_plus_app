@@ -32,6 +32,7 @@ const MovieModal = ({
             className='modal__poster-img'
             src={`https://image.tmdb.org/t/p/original/${backdrop_path}`}
             alt='modal-img'
+            loading="lazy"
           />
           <div className='modal__content'>
             <p className='modal__details'>

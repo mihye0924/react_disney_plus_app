@@ -105,7 +105,9 @@
   }
 }
 
-
+.swiper {
+  overflow: visible !important;
+} 
 .swiper-pagination {
   text-align: right !important;
 }
@@ -130,4 +132,9 @@
 .swiper-button-next::after, .swiper-button-prev::after {
   font-size: 1.3rem !important;
   font-weight: 600 !important;
+}
+.swiper-horizontal>.swiper-pagination-bullets{
+  bottom: 0 !important; 
+  top: -35px;
+  height: 0;
 }
