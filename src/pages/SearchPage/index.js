@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { useLocation, useNavigate } from 'react-router-dom'
 import axios from '../../api/axios'
 import "./SearchPage.css"
-import { useDebounce } from '../../components/hooks/useDebounce'
+import { useDebounce } from '../../hooks/useDebounce'
 
 const SearchPage = () => {
   const [searchResults, setSearchResults] = useState([])

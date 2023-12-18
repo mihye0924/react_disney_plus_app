@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react'
 import { useLocation, useNavigate } from 'react-router-dom';
 import styled from 'styled-components'
 import { getAuth, signInWithPopup, GoogleAuthProvider, onAuthStateChanged, signOut } from "firebase/auth";
+import { useDispatch, useSelector } from 'react-redux';
+import { removeUser, setUser } from '../store/userSlice';
 
 const Nav = () => {
   const [show, setShow] = useState(false);
@@ -11,8 +13,10 @@ const Nav = () => {
   const auth = getAuth();
   const provider =  new GoogleAuthProvider();
   
-  const initalUserData = JSON.parse(localStorage.getItem('userData'))
-  const [userData, setUserData] = useState(initalUserData)
+  // const initalUserData = JSON.parse(localStorage.getItem('userData'))
+  // const [userData, setUserData] = useState(initalUserData)
+
+  const user = useSelector(state => state.user)
 
   useEffect(() => { 
    onAuthStateChanged(auth, (user) => { 
@@ -34,11 +38,18 @@ const Nav = () => {
     }
   }, []) 
 
+  const dispatch = useDispatch();
   const handleAuth = () => {
     signInWithPopup(auth, provider)
     .then(result => { 
-      setUserData(result.user)  
-      localStorage.setItem('userData', JSON.stringify(result.user));
+      // setUserData(result.user)  
+      // localStorage.setItem('userData', JSON.stringify(result.user));
+      dispatch(setUser({
+        id: result.user.uid,
+        email: result.user.email,
+        photoURL: result.user.photoURL,
+        displayName: result.user.displayName
+      }))
     })
     .then(err => console.log(err))
   }
@@ -61,7 +72,8 @@ const Nav = () => {
   const handleSignOut = () => {
     signOut(auth)
     .then(() => {
-      setUserData({});
+      // setUserData({});
+      dispatch(removeUser())
       navigate("/");
     }).catch(err => console.log(err))
   }
@@ -87,7 +99,7 @@ const Nav = () => {
           placeholder="검색해주세요"
         />  
         <SignOut>
-          <UserImg src={userData.photoURL} alt={userData.displayName}/>
+          <UserImg src={user.photoURL} alt={user.displayName}/>
           <DropDown>
             <span onClick={handleSignOut}>Sign Out</span>
           </DropDown>

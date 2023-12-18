@@ -1,6 +1,6 @@
 import React, { useRef } from 'react'
 import "./MovieModal.css"
-import useOnClickOutSide from '../hooks/useOnClickOutSide';
+import useOnClickOutSide from '../../hooks/useOnClickOutSide';
 
 const MovieModal = ({
   backdrop_path,

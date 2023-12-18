@@ -1,4 +1,4 @@
-import React, { lazy, useCallback, useEffect, useState } from 'react'
+import React, { useCallback, useEffect, useState } from 'react'
 import styled from 'styled-components';
 import axios from '../api/axios';
 import requests from '../api/request';
