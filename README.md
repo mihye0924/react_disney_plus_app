@@ -45,10 +45,10 @@ https://react-disney-plus-app-4bcc7.web.app/
 1) Firebase를 많이 사용한 유저들이 하는 말은 서버의 응답속도가 종종 느려짐
 2) Firebase의 데이터베이스인 FireStore(신버전 데이터베이스)나 RealTimeDatabase(구버전 데이터베이스) 모두 쿼리가 굉장히 빈약
 
-#### react-redux 
+#### React-redux 
 -간단하고 확장가능한 상태관리, 쉽고 확장성 있게 만들어주는 검증된 상태관리 라이브러리
 
-#### react-persist 
+#### React-persist 
 -데이터를 유지할 때 사용된다. 
 
 
