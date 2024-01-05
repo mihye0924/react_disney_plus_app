@@ -1,8 +1,6 @@
 
 # React_disney_plus_app
-
-![img1 daumcdn](https://github.com/mihye0924/react_context_app/assets/71968785/2570e3a5-ee43-42fb-86b8-da357be02d14) 
-
+ 
 ------------
 
 # Site Link
@@ -97,28 +95,4 @@ https://react-disney-plus-app-4bcc7.web.app/
 ```
 npm run build
 firebase deploy
-```
-
-------------
- 
-## React Stacks
-
-#### Environment    
-<img src="https://github.com/mihye0924/react_context_app/assets/71968785/6e825b86-c259-48c2-a272-4286e74d9798" width="30">
-<img src="https://github.com/mihye0924/react_context_app/assets/71968785/557f00bf-2f5f-4bc9-9d63-10565250d6f9" width="30">
-<img src="https://github.com/mihye0924/react_context_app/assets/71968785/64f67e8b-759f-4063-a3bc-29dc3918e44b" width="30"> 
-
-#### Config
-<img src="https://github.com/mihye0924/react_context_app/assets/71968785/64725c2b-af8d-4891-9ef1-f1068d1fd019" width="30">
-
-#### Development
-<img src="https://github.com/mihye0924/react_context_app/assets/71968785/d9784930-b259-4f5f-a941-568068f1d73d" width="30"> 
-<img src="https://github.com/mihye0924/react_context_app/assets/71968785/4e1c1159-2dc7-421f-b247-f2d23a86c52f" width="30">
-<img src="https://github.com/mihye0924/react_disney_plus_app/assets/71968785/a381898a-ae03-4f31-bb06-aa7966222f2f" width="30">
-
-#### Deploy
-<img src="https://github.com/mihye0924/react_disney_plus_app/assets/71968785/84f91610-17df-4716-97b7-75135d2f8d10" width="30"> 
-
-#### State
-<img src="https://github.com/mihye0924/react_disney_plus_app/assets/71968785/abedd57b-c426-40a4-8d82-05dd8a9b3e58" width="30"> 
-
+``` 
