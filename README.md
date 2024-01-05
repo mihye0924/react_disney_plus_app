@@ -96,3 +96,19 @@ https://react-disney-plus-app-4bcc7.web.app/
 npm run build
 firebase deploy
 ``` 
+
+ 
+##stack  
+
+<img style="display:inline-block;" alt="Static Badge" src="https://img.shields.io/badge/HTML5-E34F26?logo=HTML5&logoColor=white"> <img style="display:inline-block;" alt="Static Badge" src="https://img.shields.io/badge/CSS3-1572B6?logo=CSS3&logoColor=white"> <img style="display:inline-block;"  alt="Static Badge" src="https://img.shields.io/badge/JAVASCRIPT-F7DF1E?logo=JAVASCRIPT&logoColor=white"> 
+
+<img style="display:inline-block;" alt="Static Badge" src="https://img.shields.io/badge/React-61DAFB?logo=React&logoColor=white"> <img style="display:inline-block;" alt="Static Badge" src="https://img.shields.io/badge/React%20Router-CA4245?logo=React%20Router&logoColor=white"> <img style="display:inline-block;" alt="Static Badge" src="https://img.shields.io/badge/Redux-764ABC?logo=Redux&logoColor=white"> 
+
+
+<img style="display:inline-block;" alt="Static Badge" src="https://img.shields.io/badge/AXIOS-764ABC?logoColor=white"> <img style="display:inline-block;" alt="Static Badge" src="https://img.shields.io/badge/Styled%20Components-DB7093?logo=Styled%20Components&logoColor=white">
+
+<img style="display:inline-block;" alt="Static Badge" src="https://img.shields.io/badge/FireBase-FFCA28?logo=FireBase&logoColor=white"> 
+  
+
+
+
