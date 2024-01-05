@@ -1,11 +1,6 @@
 
-# React_disney_plus_app
- 
-------------
-
-# Site Link
-https://react-disney-plus-app-4bcc7.web.app/
-
+# React_disney_plus_app   
+https://react-disney-plus-app-4bcc7.web.app/ 
 ------------
 
 # Study
